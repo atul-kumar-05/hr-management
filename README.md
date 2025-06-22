@@ -119,25 +119,33 @@ No environment variables required for basic functionality. The app uses the publ
 
 ## 📱 Screenshots
 
+
 ### Dashboard Homepage
 - Employee cards with ratings and quick actions
 - Search and filter functionality
 - Responsive grid layout
+![Screenshot (14)](https://github.com/user-attachments/assets/2a33929c-bf50-4726-9bec-8601f26379d1)
 
 ### Employee Details
 - Comprehensive profile information
 - Tabbed interface for different data sections
 - Performance history visualization
 
+![Screenshot (49)](https://github.com/user-attachments/assets/1532aa3e-2243-485a-a971-29a007709870)
+
+
 ### Analytics Dashboard
 - Interactive charts and metrics
 - Department performance comparison
 - Rating distribution insights
+![Screenshot (56)](https://github.com/user-attachments/assets/6ad06f23-ed42-43ab-be29-b0ac2dd58764)
 
 ### Bookmarks Management
 - Saved employee list
 - Bulk action capabilities
 - Quick access to favorite employees
+
+![Screenshot (55)](https://github.com/user-attachments/assets/dd871351-08f1-4eb5-a0e6-78c4a5bde3be)
 
 ## 🚀 Deployment
 
