@@ -9,6 +9,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  basePath: "/hr-management", // 👈 important for GitHub Pages
+  assetPrefix: "/hr-management",
+};
 
 export default nextConfig
