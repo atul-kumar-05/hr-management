@@ -11,6 +11,7 @@ const nextConfig = {
   },
   basePath: "/hr-management", // 👈 important for GitHub Pages
   assetPrefix: "/hr-management",
+  output: 'export' // 👈 REQUIRED to generate static site
 };
 
-export default nextConfig
+module.exports = nextConfig;
