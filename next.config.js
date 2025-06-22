@@ -9,8 +9,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/hr-management", // 👈 important for GitHub Pages
-  assetPrefix: "/hr-management",
+  basePath: '/hr-management', // 👈 important for GitHub Pages
+  assetPrefix: '/hr-management',
   output: 'export' // 👈 REQUIRED to generate static site
 };
 
