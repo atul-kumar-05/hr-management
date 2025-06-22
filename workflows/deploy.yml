@@ -1,18 +1,19 @@
-name: Deploy to GitHub Pages
+name: Deploy Next.js site to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 permissions:
   contents: write
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout source
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -23,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build and Export Next.js App
+      - name: Build and export
         run: |
           npm run build
           npm run export
